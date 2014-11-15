@@ -1,5 +1,5 @@
 {
-  "name": "DOM manipulation Example",
+  "name": "Reverent.ly",
   "version": "1.0",
   "description": "Chrome Extension Example for manipulating DOM.",
   "content_scripts": [{
