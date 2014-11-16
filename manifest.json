@@ -1,7 +1,7 @@
 {
   "name": "Reverent.ly",
   "version": "1.0",
-  "description": "Chrome Extension Example for manipulating DOM.",
+  "description": "Internet for the Supreme Leader.",
   "content_scripts": [{
     "matches": ["<all_urls>"],
     "js": ["content.js", "jquery.js"]
@@ -16,5 +16,8 @@
   "permissions": [
     "tabs"
   ],
+  "icons": { "16": "img/fav_icon.png",
+           "48": "img/icon48.png",
+          "128": "img/icon128.png" },
   "manifest_version": 2
 }
